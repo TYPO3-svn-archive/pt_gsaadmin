@@ -1,0 +1,9 @@
+// all settings assigned like {$config.tx_ptgsaadmin.*} originate from /static/constants.txt
+
+config.tx_ptgsaadmin {
+
+	templateArticleListViewLabel = {$config.tx_ptgsaadmin.templateArticleListViewLabel}
+	templateArticleListViewTitle = {$config.tx_ptgsaadmin.templateArticleListViewTitle}
+	articlesPerPage = {$config.tx_ptgsaadmin.articlesPerPage} 
+	
+}

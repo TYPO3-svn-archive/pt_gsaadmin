@@ -1,0 +1,32 @@
+{* Smarty *}
+{* Default template for pt_gsaadmin Module "Articles"; Author: Rainer Kuhn <kuhn@punkt.de>, since 2007-09-11 *}
+
+<h3>
+    {$form_data.header.myHeader} [This is the Smarty template!]
+</h3>
+<form {$form_data.attributes}>
+    <table>
+        <!-- Display the fields -->
+        <tr>
+            <td>{$form_data.sal_id.label}</td>
+            <td>{$form_data.sal_id.html}</td>
+        </tr>
+        <tr>
+            <td>{$form_data.myFirstname.label}</td>
+            <td>{$form_data.myFirstname.html}</td>
+        </tr>
+        <tr>
+            <td>{$form_data.myLastname.label}</td>
+            <td>{$form_data.myLastname.html}</td>
+        </tr>
+        <tr>
+            <td>{$form_data.myTextArea.label}</td>
+            <td>{$form_data.myTextArea.html}</td>
+        </tr>
+        <!-- Display the buttons --> 
+        <tr>
+            <td>&nbsp;<br /><br /></td>
+            <td>{$form_data.btnClear.html}&nbsp;{$form_data.btnSubmit.html}</td>
+        </tr>
+    </table>
+</form>

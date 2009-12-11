@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>Language labels for module &quot;tools_txptgsaadminM3&quot;</description>
+    </meta>
+    <data type="array">
+    
+        <languageKey index="default" type="array">
+            <label index="title">Dispatch costs</label>
+            <label index="jumpMenuFunction1">Edit dispatch cost</label>
+            <label index="jumpMenuFunction2">Create new dispatch cost</label>
+            <label index="jumpMenuFunction3">Label cost components</label>
+            
+            <label index="actionHeader1">Search/edit/delete dispatch cost</label>
+            <label index="actionHeader2">Create new dispatch cost</label>
+            <label index="actionHeader3">Label cost components</label>
+            
+            <label index="qf_jsWarningPref">Invalid information entered:</label>
+            <label index="qf_jsWarningPost">Please correct these fields.</label>
+            <label index="qf_requiredNote">denotes required field</label>
+            <label index="qf_ruleRequired">An entry for '%s' is required.</label>
+            <label index="qf_ruleNumeric">The entry for '%s' has to be numeric (use decimal _point_ if necessary).</label>
+            <label index="qf_ruleMaxlength">The entry for '%1$s' must not contain more than %2$s characters.</label>
+            
+            <label index="selForm_header1">Choose dispatch cost to edit/delete</label>
+            <label index="selForm_costSelector">Cost type selection</label>
+            <label index="selForm_btnEdit">Edit</label>
+            
+            <label index="costForm_btnClear">Reset form</label>
+            <label index="costForm_btnSubmit_new">Create dispatch cost</label>
+            <label index="costForm_btnSubmit_edit">Save changes</label>
+            <label index="costForm_btnSubmit_delete">Delete(!) dispatch cost</label>
+            <label index="costForm_btnSubmit_delete_confirm">Are you really sure to IRREVOCABLY DELETE this dispatch cost?</label>
+            <label index="costForm_btnSubmit_back">Back to selection</label>
+            <label index="costForm_header1">Dispatch cost data</label>
+            <label index="costForm_costTypeName">Cost type name</label>
+            <label index="costForm_costComp1">Cost component 1</label>
+            <label index="costForm_costComp2">Cost component 2</label>
+            <label index="costForm_costComp3">Cost component 3</label>
+            <label index="costForm_costComp4">Cost component 4</label>
+            <label index="costForm_allowance">Allowance</label>
+            
+            <label index="costFormAction_confInsert">The dispatch cost has been created!</label>
+            <label index="costFormAction_confDelete">The dispatch cost has been deleted!</label>
+            <label index="costFormAction_confUpdate">The dispatch cost has been changed!</label>
+        </languageKey>
+        
+        <languageKey index="de" type="array">
+            <label index="title">Versandkosten</label>
+            <label index="jumpMenuFunction1">Versandkosten bearbeiten</label>
+            <label index="jumpMenuFunction2">neue Versandkosten erstellen</label>
+            <label index="jumpMenuFunction3">Kosten-Komponenten benennen</label>
+            
+            <label index="actionHeader1">Versandkosten suchen/bearbeiten/löschen</label>
+            <label index="actionHeader2">Neue Versandkosten erstellen</label>
+            <label index="actionHeader3">Kosten-Komponenten benennen</label>
+            
+            <label index="qf_jsWarningPref">Falsche oder unvollständige Eingabe:</label>
+            <label index="qf_jsWarningPost">Bitte korrigieren Sie diese Felder.</label>
+            <label index="qf_requiredNote">Pflichtfeld</label>
+            <label index="qf_ruleRequired">Das Feld '%s' muss ausgefüllt werden.</label>
+            <label index="qf_ruleNumeric">Das Feld '%s' muss numerisch sein (ggf. mit _Punkt_ als Dezimaltrenner).</label>
+            <label index="qf_ruleMaxlength">Das Feld '%1$s' darf nur max. %2$s Zeichen enthalten.</label>
+            
+            <label index="selForm_header1">Versandkosten auswählen zum Bearbeiten/Löschen</label>
+            <label index="selForm_costSelector">Kostentyp-Auswahl</label>
+            <label index="selForm_btnEdit">Bearbeiten</label>
+            
+            <label index="costForm_btnClear">Formular zurücksetzen</label>
+            <label index="costForm_btnSubmit_new">Versandkosten erstellen</label>
+            <label index="costForm_btnSubmit_edit">Änderungen speichern</label>
+            <label index="costForm_btnSubmit_delete">Versandkosten löschen(!)</label>
+            <label index="costForm_btnSubmit_delete_confirm">Möchten Sie diese Versandkosten wirklich ENDGÜLTIG LÖSCHEN?</label>
+            <label index="costForm_btnSubmit_back">Zurück zur Auswahl</label>
+            <label index="costForm_header1">Versandkosten-Daten</label>
+            <label index="costForm_costTypeName">Kostentyp-Name</label>
+            <label index="costForm_costComp1">Kosten-Komponente 1</label>
+            <label index="costForm_costComp2">Kosten-Komponente 2</label>
+            <label index="costForm_costComp3">Kosten-Komponente 3</label>
+            <label index="costForm_costComp4">Kosten-Komponente 4</label>
+            <label index="costForm_allowance">Frei ab</label>
+            
+            <label index="costFormAction_confInsert">Die Versandkosten wurden angelegt!</label>
+            <label index="costFormAction_confDelete">Die Versandkosten wurden gelöscht!</label>
+            <label index="costFormAction_confUpdate">Die Versandkosten wurden geändert!</label>
+        </languageKey>
+        
+    </data>
+</T3locallang>
+

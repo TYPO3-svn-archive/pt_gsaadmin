@@ -1,0 +1,24 @@
+/* 
+possible subcategories: 
+----------------------
+basic        Extension configuration in Extension Manager
+
+possible data types (type=):
+---------------------------
+int [low-high]              integer, opt. in range "low" to "high"
+int+                        positive integer
+offset [L1,L2,...L6]        comma-separated integers. Default is "x,y", but as comma separated parameters in brackets you can specify up to 6 labels being comma separated! If you wish to omit one of the last 4 fields, just don't enter a label for that element.
+color                       HTML color
+wrap                        HTML-code that is wrapped around some content.
+options [item1,item2,...]   Selectbox with values/labels item1, item2 etc. Commaseparated. Split by "=" also and in that case, first part is label, second is value
+boolean [truevalue]         Boolean, opt. you can define the value of "true", def.=1
+comment                     Boolean, checked= "", not-checked = "#".
+file [ext-list/IMAGE_EXT]   Selectorbox with resources. Opt. list allowed extensions (no space in list!), eg. "[ttf]" or "[txt,html,htm]". You can also enter "[IMAGE_EXT]" in which case the default image-extensions are listed. (used for datatype "imgResouce")
+string (the default)        Just a string value
+*/
+
+# cat=basic; type=string; label=TS configuration PID: PID of the page where to find the main typoscript configuration of GSA Admin (the page where you've integrated the static template of GSA Admin). Note: if your Typoscript template is stored in a sysfolder, you don't have to set the PID of the sysfolder here, but the PID of the page where the template is included/used!
+tsConfigurationPid = 1
+
+# cat=basic; type=boolean; label=Enabled tax rate module: Flag whether the 'Tax Rates' backend module should be displayed/used. IMPORTANT: Do NOT use this module in combination with the ERP system since both do currently not work together (leads to ERP software crashes, overwritten DB records etc.)! If you use the ERP with the GSA Shop extensions, you should disable this module and administrate your tax rates with the ERP software.
+enableTaxRatesModule = 1
