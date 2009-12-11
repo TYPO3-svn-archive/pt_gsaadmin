@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>Language labels for module &quot;tools_txptgsaadminM4&quot;</description>
+    </meta>
+    <data type="array">
+    
+        <languageKey index="default" type="array">
+            <label index="title">Tax Rates</label>
+            <label index="jumpMenuFunction1">Edit tax rate</label>
+            <label index="jumpMenuFunction2">Create new tax rate</label>
+            
+            <label index="actionHeader1">Search/edit/delete tax rate</label>
+            <label index="actionHeader2">Create new tax rate</label>
+            
+            <label index="qf_jsWarningPref">Invalid information entered:</label>
+            <label index="qf_jsWarningPost">Please correct these fields.</label>
+            <label index="qf_requiredNote">denotes required field</label>
+            <label index="qf_ruleRequired">An entry for '%s' is required.</label>
+            <label index="qf_ruleNumeric">The entry for '%s' has to be numeric (use decimal _point_ if necessary).</label>
+            <label index="qf_ruleMaxlength">The entry for '%1$s' must not contain more than %2$s characters.</label>
+            
+            <label index="selForm_header1">Choose tax rate to edit/delete</label>
+            <label index="selForm_taxSelector">Tax rate selection</label>
+            <label index="selForm_btnEdit">Edit</label>
+            <label index="selForm_optiontextSince">since</label>
+            
+            <label index="taxForm_btnClear">Reset form</label>
+            <label index="taxForm_btnSubmit_new">Create tax rate</label>
+            <label index="taxForm_btnSubmit_edit">Save changes</label>
+            <label index="taxForm_btnSubmit_delete">Delete(!) tax rate</label>
+            <label index="taxForm_btnSubmit_delete_confirm">Are you really sure to IRREVOCABLY DELETE this tax rate?</label>
+            <label index="taxForm_btnSubmit_back">Back to selection</label>
+            <label index="taxForm_header1">Tax rate data</label>
+            <label index="taxForm_header1_new">new</label>
+            <label index="taxForm_taxCode">Tax rate code ('00'-'19')</label>
+            <label index="taxForm_taxRate">Tax rate (percent)</label>
+            <label index="taxForm_startDate">from date</label>
+            <label index="taxForm_header2">Description: &lt;span class="tx_ptgsaadmin_formHeaderNotice"&gt;[will be set for &lt;u&gt;all&lt;/u&gt; tax rates with this tax code!]&lt;/span&gt;</label>
+            <label index="taxForm_taxDescription">Code description</label>
+            
+            <label index="taxFormAction_confInsert">The tax rate has been created!</label>
+            <label index="taxFormAction_confDelete">The tax rate has been deleted!</label>
+            <label index="taxFormAction_confUpdate">The tax rate has been changed!</label>
+        </languageKey>
+        
+        <languageKey index="de" type="array">
+            <label index="title">Steuersätze</label>
+            <label index="jumpMenuFunction1">Steuersatz bearbeiten</label>
+            <label index="jumpMenuFunction2">neuen Steuersatz erstellen</label>
+            
+            <label index="actionHeader1">Steuersatz suchen/bearbeiten/löschen</label>
+            <label index="actionHeader2">Neuen Steuersatz erstellen</label>
+            
+            <label index="qf_jsWarningPref">Falsche oder unvollständige Eingabe:</label>
+            <label index="qf_jsWarningPost">Bitte korrigieren Sie diese Felder.</label>
+            <label index="qf_requiredNote">Pflichtfeld</label>
+            <label index="qf_ruleRequired">Das Feld '%s' muss ausgefüllt werden.</label>
+            <label index="qf_ruleNumeric">Das Feld '%s' muss numerisch sein (ggf. mit _Punkt_ als Dezimaltrenner).</label>
+            <label index="qf_ruleMaxlength">Das Feld '%1$s' darf nur max. %2$s Zeichen enthalten.</label>
+            
+            <label index="selForm_header1">Steuersatz auswählen zum Bearbeiten/Löschen</label>
+            <label index="selForm_taxSelector">Steuersatz-Auswahl</label>
+            <label index="selForm_btnEdit">Bearbeiten</label>
+            <label index="selForm_optiontextSince">seit</label>
+            
+            <label index="taxForm_btnClear">Formular zurücksetzen</label>
+            <label index="taxForm_btnSubmit_new">Steuersatz erstellen</label>
+            <label index="taxForm_btnSubmit_edit">Änderungen speichern</label>
+            <label index="taxForm_btnSubmit_delete">Steuersatz löschen(!)</label>
+            <label index="taxForm_btnSubmit_delete_confirm">Möchten Sie diesen Steuersatz wirklich ENDGÜLTIG LÖSCHEN?</label>
+            <label index="taxForm_btnSubmit_back">Zurück zur Auswahl</label>
+            <label index="taxForm_header1">Steuersatz-Daten &lt;span class="tx_ptgsaadmin_formHeaderNotice"&gt;[id:%s]&lt;/span&gt;</label>
+            <label index="taxForm_header1_new">neu</label>
+            <label index="taxForm_taxCode">Steuersatz-Code ('00'-'19')</label>
+            <label index="taxForm_taxRate">Steuersatz (Prozent)</label>
+            <label index="taxForm_startDate">ab Datum</label>
+            <label index="taxForm_header2">Bezeichnung &lt;span class="tx_ptgsaadmin_formHeaderNotice"&gt;[wird für &lt;u&gt;alle&lt;/u&gt; Steuersätze mit diesem Steuersatz-Code gesetzt!]&lt;/span&gt;</label>
+            <label index="taxForm_taxDescription">Code-Bezeichnung</label>
+            
+            <label index="taxFormAction_confInsert">Der Steuersatz wurde angelegt!</label>
+            <label index="taxFormAction_confDelete">Der Steuersatz wurde gelöscht!</label>
+            <label index="taxFormAction_confUpdate">Der Steuersatz wurde geändert!</label>
+        </languageKey>
+        
+    </data>
+</T3locallang>
+

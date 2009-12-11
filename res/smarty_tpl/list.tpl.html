@@ -1,0 +1,48 @@
+<table border="0" cellpadding="0" cellspacing="0" class="typo3-dblist">
+	
+	<tr>
+        <td nowrap="nowrap" class="c-table-row-spacer"><img src="clear.gif" width="1" height="8" alt="" /></td>
+        <td nowrap="nowrap" class="c-table-row-spacer"{if $passParameter.labelcolumns != 1} colspan="{$passParameter.labelcolumns+1}"{/if}><img src="clear.gif" width="230" height="1" alt="" /></td>
+    </tr>
+	
+	
+	<!-- Title -->
+    <tr>
+        <td nowrap="nowrap" class="c-headLineTable"></td>
+        <td nowrap="nowrap" class="c-headLineTable"{if $passParameter.labelcolumns != 1} colspan="{$passParameter.labelcolumns+1}"{/if}><span class="c-table">{$title}</span></td>
+    </tr>
+	
+	<!-- Header cells -->
+    <tr>
+	{foreach from=$tableHeadRow item=cell}
+		<td nowrap="nowrap" class="c-headLine"{if $cell.colspan != 1} colspan="{$cell.colspan}"{/if}>
+			<b>{$cell.content}</b>
+		</td>
+	{/foreach}
+    </tr>
+	
+	<!-- Page up button -->	
+    <tr>
+		<td nowrap="nowrap"></td>
+		<td nowrap="nowrap"{if $passParameter.labelcolumns != 1} colspan="{$passParameter.labelcolumns+1}"{/if}>{$pageUpBtn}</td>
+	</tr>
+	
+	<!-- Rows -->
+	{foreach from=$rows item=row}
+		<tr>
+		<!-- Cells -->
+		{foreach from=$row.content item=cell}
+			<td class="{$cell.class}"{if $cell.colspan != 1} colspan="{$cell.colspan}"{/if}>
+				{$cell.content}
+			</td>
+		{/foreach}
+		</tr>
+	{/foreach}
+
+	<!-- Page down button -->
+	<tr>
+		<td nowrap="nowrap"></td>
+		<td nowrap="nowrap"{if $passParameter.labelcolumns != 1} colspan="{$passParameter.labelcolumns+1}"{/if}>{$pageDownBtn}</td>
+	</tr>
+	
+</table>

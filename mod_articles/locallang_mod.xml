@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>Language labels for module &quot;tools_txptgsaadminM2&quot; - header, description</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="mlang_tabs_tab">Articles</label>
+            <label index="mlang_labels_tabdescr">Offers interfaces to add, edit or delete GSA Shop articles within the GSA database (relates to ext. pt_gsashop).</label>
+            <label index="mlang_labels_tablabel">Article administration</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="mlang_tabs_tab">Artikel</label>
+            <label index="mlang_labels_tabdescr">Bietet Oberflächen zum Erstellen, Ändern und Löschen von GSA Shop Artikeln in der GSA Datenbank an (bezieht sich auf Ext. pt_gsashop).</label>
+            <label index="mlang_labels_tablabel">Artikel-Verwaltung</label>
+        </languageKey>
+    </data>
+</T3locallang>

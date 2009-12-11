@@ -1,0 +1,131 @@
+<?php
+/***************************************************************
+*  Copyright notice
+*  
+*  (c) 2008 Fabrizio Branca (branca@punkt.de)
+
+*  All rights reserved
+*
+*  This script is part of the Typo3 project. The Typo3 project is 
+*  free software; you can redistribute it and/or modify
+*  it under the terms of the GNU General Public License as published by
+*  the Free Software Foundation; either version 2 of the License, or
+*  (at your option) any later version.
+* 
+*  The GNU General Public License can be found at
+*  http://www.gnu.org/copyleft/gpl.html.
+* 
+*  This script is distributed in the hope that it will be useful,
+*  but WITHOUT ANY WARRANTY; without even the implied warranty of
+*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*  GNU General Public License for more details.
+*
+*  This copyright notice MUST APPEAR in all copies of the script!
+***************************************************************/
+
+
+
+/** 
+ * Example class for hook methods for the pt_gsaadmin article gui
+ *
+ * $Id: class.tx_EXTKEY_ptgsaadmin_hooks.php.txt,v 1.1 2008/03/04 09:30:30 ry44 Exp $
+ * 
+ * @author	Fabrizio Branca <branca@punkt.de>
+ * @since	2008-02-07
+ */
+class tx_EXTKEY_ptgsaadmin_hooks extends tx_ptgsaadmin_module2 {
+    
+    /**
+     * This is called when the article data is loaded (e.g. to add addtional data, that is used in the form later)
+     *
+     * $params['articleDataArr']    article data array
+     * $params['articleObj']        tx_ptgsashop_baseArticle
+     * 
+     * @param   array   array of parameters   
+     * @param   tx_ptgsaadmin_module2   calling module object
+     * @author  Fabrizio Branca <branca@punkt.de>
+     * @since   2008-02-07
+     */
+    public function loadArticleDefaults(array &$params, tx_ptgsaadmin_module2 $ref){
+
+    }
+    
+    
+    /**
+     * $params is an empty array (use processRelatedData if you need the article's uid)
+     *
+     * @param array $params
+     * @param tx_ptgsaadmin_module2 $ref
+     */
+    public function createArticleFromFormData_processData(array &$params, tx_ptgsaadmin_module2 $ref){
+        
+    }
+    
+    /**
+     * This is called after an updated or a new created article has been saved
+     * 
+     * $params['articleUid']    uid of the article
+     * 
+     * @param   array   array of parameters   
+     * @param   tx_ptgsaadmin_module2   calling module object
+     * @author  Fabrizio Branca <branca@punkt.de>
+     * @since   2008-02-07
+     */
+    public function createArticleFromFormData_processRelatedData(array &$params, tx_ptgsaadmin_module2 $ref){
+    
+    }
+    
+    /**
+     * This is called when an article was deleted (e.g. for cleaning up all related data)
+     * 
+     * $params['articleUid']   uid of the deleted article
+     *
+     * @param   array   array of parameters   
+     * @param   tx_ptgsaadmin_module2   calling module object
+     * @author  Fabrizio Branca <branca@punkt.de>
+     * @since   2008-02-07
+     */
+    public function deleteArticle(array &$params, tx_ptgsaadmin_module2 $ref){
+    
+    }
+    
+    /**
+     * This is called while building the form (after the first button row)
+     * 
+     * $params['formObj']              HTML_Quickform object
+     * $params['defaultsDataArr']   default data array
+     * $params['tceformsObj']       t3lib_TCEforms object
+     * $params['table']             Name of the virtual_table
+     * $params['row']               virtual row for tceforms
+     *
+     * @param   array   array of parameters   
+     * @param   tx_ptgsaadmin_module2   calling module object
+     * @author  Fabrizio Branca <branca@punkt.de>
+     * @since   2008-02-07
+     */
+    public function returnArticleForm_formAfterFirstSection(array &$params, tx_ptgsaadmin_module2 $ref){
+        
+    }
+    
+    /**
+     * This is called after building the form 
+     * 
+     * $params['formObj']              HTML_Quickform object
+     * $params['defaultsDataArr']   default data array
+     * $params['tceformsObj']       t3lib_TCEforms object
+     * $params['table']             Name of the virtual_table
+     * $params['row']               virtual row for tceforms
+     *
+     * @param   array   array of parameters   
+     * @param   tx_ptgsaadmin_module2   calling module object
+     * @author  Fabrizio Branca <branca@punkt.de>
+     * @since   2008-02-07
+     */
+    public function returnArticleForm_completeForm(array &$params, tx_ptgsaadmin_module2 $ref){
+        
+    }
+    
+    
+}
+
+?>

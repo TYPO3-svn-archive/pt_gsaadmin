@@ -1,0 +1,45 @@
+/** 
+ * Style sheets for submodules of the 'pt_gsaadmin' extension.
+ *
+ * $Id: submodules.css,v 1.11 2008/04/08 11:24:55 ry37 Exp $
+ *
+ * @author  Rainer Kuhn <kuhn@punkt.de>
+ * @since   2007-10-10
+ */ 
+ 
+.tx_ptgsaadmin_inputTextDefault {
+	width: 360px;
+}
+.tx_ptgsaadmin_inputTextShort {
+	width: 220px;
+}
+.tx_ptgsaadmin_inputTextPrice {
+	width: 70px;
+}
+.tx_ptgsaadmin_textareaDefault {
+	width: 100%;
+	height: 150px;
+}
+.tx_ptgsaadmin_textareaSmall {
+	width: 100%;
+	height: 50px;
+}
+.tx_ptgsaadmin_buttonSpecial {
+	margin-top: 10px;
+}
+.tx_ptgsaadmin_message {
+	color: #f00;
+}
+.tx_ptgsaadmin_scalePriceQty {
+	background-color: #DDDDDD;
+}
+.tx_ptgsaadmin_selectQuantityScale {
+	width: 60px;
+}
+.tx_ptgsaadmin_newQuantityScale {
+	width: 60px; 
+}
+.tx_ptgsaadmin_formHeaderNotice {
+    font-weight: normal;
+    font-style: italic; 
+}

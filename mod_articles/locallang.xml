@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>Language labels for module &quot;tools_txptgsaadminM2&quot;</description>
+    </meta>
+    <data type="array">
+    
+        <languageKey index="default" type="array">
+            <label index="jumpMenuFunction1">Article list</label>
+            <label index="jumpMenuFunction2">Create new article</label>
+            
+            <label index="listTitle">Article list</label>
+            <label index="listTitleSearchAddition">Search results for search string</label>
+            <label index="listResetSearch">Reset search</label>
+            
+            <label index="actionHeader1">Search/edit/delete article</label>
+            <label index="actionHeader2">Create new article</label>
+            
+            <label index="qf_jsWarningPref">Invalid information entered:</label>
+            <label index="qf_jsWarningPost">Please correct these fields.</label>
+            <label index="qf_requiredNote">denotes required field</label>
+            <label index="qf_ruleRequired">An entry for '%s' is required.</label>
+            <label index="qf_ruleRequiredScale">An entry for '%1$s' is required for scale price with quantity '%2$s'.</label>
+            <label index="qf_ruleNumeric">The entry for '%s' has to be numeric (use decimal _point_ if necessary).</label>
+            
+            <label index="selForm_header1">Choose article to edit/delete</label>
+            <label index="selForm_articleSelector">Article selection</label>
+            <label index="selForm_btnEdit">Edit</label>
+            
+            <label index="artForm_btnClear">Reset form</label>
+            <label index="artForm_btnSubmit_new">Create article</label>
+            <label index="artForm_btnSubmit_edit">Save changes</label>
+            <label index="artForm_btnSubmit_delete">Delete article (!)</label>
+            <label index="artForm_btnSubmit_delete_confirm">Are you really sure to IRREVOCABLY DELETE this article incl. all it's relations?</label>
+            <label index="artForm_header1">Article master data</label>
+            <label index="artForm_header2">Prices/quantity scales</label>
+            <label index="artForm_header3">Article texts</label>
+            <label index="artForm_header4">Calculation</label>
+            <label index="artForm_header5">Free fields</label>
+			<label index="artForm_header6">Categories</label>
+			<label index="artForm_header7">Images</label>
+            <label index="artForm_artNo">Article number</label>
+            <label index="artForm_match1">Search term</label>
+            <label index="artForm_match2">Description</label>
+            <label index="artForm_grossPriceFlag">Gross prices</label>
+            <label index="artForm_passiveFlag">Passive article</label>
+            <label index="artForm_taxCodeInland">Tax code</label>
+            <label index="artForm_webAddress">Web address</label>
+            <label index="artForm_webAddressInfo">Shop-SingleView (default) / PID / Alias / URL / -1 (=no link)</label>
+            <label index="artForm_quantityScaleGroup">Quantity scale</label>
+            <label index="artForm_quantityScaleDeleteButton">Delete</label>
+            <label index="artForm_quantityScaleNewButton">New</label>
+            <label index="artForm_quantityScaleNew">from qty</label>
+            <label index="artForm_scalePriceQuantity">from quantity</label>
+            <label index="artForm_basicRetailPriceCategory1">Retail price 1</label>
+            <label index="artForm_basicRetailPriceCategory2">Retail price 2</label>
+            <label index="artForm_basicRetailPriceCategory3">Retail price 3</label>
+            <label index="artForm_basicRetailPriceCategory4">Retail price 4</label>
+            <label index="artForm_basicRetailPriceCategory5">Retail price 5</label>
+            <label index="artForm_specialOfferGroup">Special offer</label>
+            <label index="artForm_specialOfferRetailPrice">Special offer price</label>
+            <label index="artForm_specialOfferStartDate">from</label>
+            <label index="artForm_specialOfferEndDate">to</label>
+            <label index="artForm_defText">Article text</label>
+            <label index="artForm_altText">Alternative text</label>
+            <label index="artForm_fixedCost1">Fixed cost 1 (net price)</label>
+            <label index="artForm_fixedCost2">Fixed cost 2 (net price)</label>
+            <label index="artForm_userField01">Free field 1</label>
+            <label index="artForm_userField02">Free field 2</label>
+            <label index="artForm_userField03">Free field 3</label>
+            <label index="artForm_userField04">Free field 4</label>
+            <label index="artForm_userField05">Free field 5</label>
+            <label index="artForm_userField06">Free field 6</label>
+            <label index="artForm_userField07">Free field 7</label>
+            <label index="artForm_userField08">Free field 8</label>
+            
+            <label index="artForm_header6">EAN-Number</label>
+            <label index="artForm_eanNumber">EAN-Number</label>
+            
+			<label index="artForm_catselect">Categories</label>
+			<label index="artForm_images">Images</label>
+			
+			<label index="artForm_disableRte">Disable Rich Text Editor</label>
+            
+            <label index="artFormAction_confInsert">The article has been created!</label>
+            <label index="artFormAction_confDelete">The article and it's relations have been deleted!</label>
+            <label index="artFormAction_confUpdate">The article has been changed!</label>
+			
+			<label index="noArticlesFound">No Articles found</label>
+			<label index="searchResults">Search results for search string "%s"</label>
+			<label index="searchString">Search string</label>
+			<label index="searchButtonLabel">Search</label>
+        </languageKey>
+        
+        <languageKey index="de" type="array">
+            <label index="jumpMenuFunction1">Artikel-Liste</label>
+            <label index="jumpMenuFunction2">neuen Artikel erstellen</label>
+            
+            <label index="listTitle">Artikel-Liste</label>
+            <label index="listTitleSearchAddition">Suchergebnisse für Such-String</label>
+            <label index="listResetSearch">Suche zurücksetzen</label>
+            
+            <label index="actionHeader1">Artikel suchen/bearbeiten/löschen</label>
+            <label index="actionHeader2">Neuen Artikel erstellen</label>
+            
+            <label index="qf_jsWarningPref">Falsche oder unvollständige Eingabe:</label>
+            <label index="qf_jsWarningPost">Bitte korrigieren Sie diese Felder.</label>
+            <label index="qf_requiredNote">Pflichtfeld</label>
+            <label index="qf_ruleRequired">Das Feld '%s' muss ausgefüllt werden.</label>
+            <label index="qf_ruleRequiredScale">Das Feld '%1$s' muss für Staffelpreis ab Menge '%2$s' ausgefüllt werden.</label>
+            <label index="qf_ruleNumeric">Das Feld '%s' muss numerisch sein (ggf. mit _Punkt_ als Dezimaltrenner).</label>
+            
+            <label index="selForm_header1">Artikel auswählen zum Bearbeiten/Löschen</label>
+            <label index="selForm_articleSelector">Artikel-Auswahl</label>
+            <label index="selForm_btnEdit">Bearbeiten</label>
+            
+            <label index="artForm_btnClear">Formular zurücksetzen</label>
+            <label index="artForm_btnSubmit_new">Artikel erstellen</label>
+            <label index="artForm_btnSubmit_edit">Änderungen speichern</label>
+            <label index="artForm_btnSubmit_delete">Artikel löschen (!)</label>
+            <label index="artForm_btnSubmit_delete_confirm">Möchten Sie diesen Artikel mit all seinen Bezügen wirklich ENDGÜLTIG LÖSCHEN?</label>
+            <label index="artForm_header1">Artikel-Stammdaten</label>
+            <label index="artForm_header2">Preise/Mengenstaffeln</label>
+            <label index="artForm_header3">Artikeltexte</label>
+            <label index="artForm_header4">Kalkulation</label>
+            <label index="artForm_header5">Freifelder</label>
+			<label index="artForm_header6">Kategorien</label>
+			<label index="artForm_header7">Bilder</label>
+            <label index="artForm_artNo">Artikelnummer</label>
+            <label index="artForm_match1">Suchbegriff</label>
+            <label index="artForm_match2">Beschreibung</label>
+            <label index="artForm_grossPriceFlag">Bruttopreise</label>
+            <label index="artForm_passiveFlag">passiver Artikel</label>
+            <label index="artForm_taxCodeInland">Steuercode</label>
+            <label index="artForm_webAddress">Webadresse</label>
+            <label index="artForm_webAddressInfo">Shop-SingleView (default) / PID / Alias / URL / -1 (=kein Link)</label>
+            <label index="artForm_quantityScaleGroup">Mengenstaffel</label>
+            <label index="artForm_quantityScaleDeleteButton">Löschen</label>
+            <label index="artForm_quantityScaleNewButton">Neu</label>
+            <label index="artForm_quantityScaleNew">ab Menge</label>
+            <label index="artForm_scalePriceQuantity">ab Menge</label>
+            <label index="artForm_basicRetailPriceCategory1">VK-Preis 1</label>
+            <label index="artForm_basicRetailPriceCategory2">VK-Preis 2</label>
+            <label index="artForm_basicRetailPriceCategory3">VK-Preis 3</label>
+            <label index="artForm_basicRetailPriceCategory4">VK-Preis 4</label>
+            <label index="artForm_basicRetailPriceCategory5">VK-Preis 5</label>
+            <label index="artForm_specialOfferGroup">Sonderangebot</label>
+            <label index="artForm_specialOfferRetailPrice">Aktionspreis</label>
+            <label index="artForm_specialOfferStartDate">von</label>
+            <label index="artForm_specialOfferEndDate">bis</label>
+            <label index="artForm_defText">Artikeltext</label>
+            <label index="artForm_altText">Alternativtext</label>
+            <label index="artForm_fixedCost1">Fixkosten 1 (netto)</label>
+            <label index="artForm_fixedCost2">Fixkosten 2 (netto)</label>
+            <label index="artForm_userField01">Freifeld 1</label>
+            <label index="artForm_userField02">Freifeld 2</label>
+            <label index="artForm_userField03">Freifeld 3</label>
+            <label index="artForm_userField04">Freifeld 4</label>
+            <label index="artForm_userField05">Freifeld 5</label>
+            <label index="artForm_userField06">Freifeld 6</label>
+            <label index="artForm_userField07">Freifeld 7</label>
+            <label index="artForm_userField08">Freifeld 8</label>
+            
+            <label index="artForm_header6">EAN-Nummer</label>
+            <label index="artForm_eanNumber">EAN-Nummer</label>
+            
+			<label index="artForm_catselect">Kategorien</label>
+			<label index="artForm_images">Bilder</label>           
+			
+			<label index="artForm_disableRte">Rich Text Editor abschalten</label> 
+
+            <label index="artFormAction_confInsert">Der Artikel wurde angelegt!</label>
+            <label index="artFormAction_confDelete">Der Artikel und seine Bezüge wurden gelöscht!</label>
+            <label index="artFormAction_confUpdate">Der Artikel wurde geändert!</label>
+			
+			<label index="noArticlesFound">Keine Artikel gefunden</label>
+			<label index="searchResults">Suchergebniss für Suchstring "%s"</label>
+			<label index="searchString">Suchbegriff</label>
+			<label index="searchButtonLabel">Suchen</label>
+        </languageKey>
+        
+    </data>
+</T3locallang>
+

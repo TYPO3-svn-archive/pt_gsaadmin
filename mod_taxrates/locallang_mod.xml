@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>Language labels for module &quot;tools_txptgsaadminM4&quot; - header, description</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="mlang_tabs_tab">Tax Rates</label>
+            <label index="mlang_labels_tabdescr">Offers interfaces to add, edit or delete GSA Shop Tax Rates within the GSA database (relates to ext. pt_gsashop).</label>
+            <label index="mlang_labels_tablabel">Tax Rates administration</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="mlang_tabs_tab">Steuersätze</label>
+            <label index="mlang_labels_tabdescr">Bietet Oberflächen zum Erstellen, Ändern und Löschen von GSA Shop Steuersätzen in der GSA Datenbank an (bezieht sich auf Ext. pt_gsashop).</label>
+            <label index="mlang_labels_tablabel">Steuersätze-Verwaltung</label>
+        </languageKey>
+    </data>
+</T3locallang>
