@@ -13,21 +13,28 @@ TODO: todo
 ********************************************************************************
 
 
-ToDo: As of 10.12.09
+ToDo: As of 11.12.09
 ====================
 
-- adapt presentation of Dispatch Cost module and Tax Rate module to TYPO3 default layout similar to Articles module
-- advance and complete the existing modules for missing fields/functions
-- add an article relations interface to the Articles module
-- re-implementation of the Tax Rates module after getting a new bugfixed and cleaned-up version of the ERP system
-- add configurable naming labels for dispatch cost components
-- add additional modules
+- TODO: adapt presentation of Dispatch Cost module and Tax Rate module to TYPO3 default layout similar to Articles module
+- TODO: advance and complete the existing modules for missing fields/functions
+- TODO: add an article relations interface to the Articles module
+- TODO: re-implementation of the Tax Rates module after getting a new bugfixed and cleaned-up version of the ERP system
+- TODO: add configurable naming labels for dispatch cost components
+- TODO: add additional modules
 
 
 
 ********************************************************************************
 CHANGELOG
 ********************************************************************************
+
+v1.0.1dev:
+=========
++ (rk) CHG: "initialized" development version 0.1.1dev (v0.1.0 has been tagged in SVN and uploaded to TER before)
+
+
+
 
 v0.1.0:
 ======
