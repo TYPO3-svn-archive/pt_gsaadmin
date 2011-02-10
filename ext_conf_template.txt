@@ -22,3 +22,9 @@ tsConfigurationPid = 1
 
 # cat=basic; type=boolean; label=Enabled tax rate module: Flag whether the 'Tax Rates' backend module should be displayed/used. IMPORTANT: Do NOT use this module in combination with the ERP system since both do currently not work together (leads to ERP software crashes, overwritten DB records etc.)! If you use the ERP with the GSA Shop extensions, you should disable this module and administrate your tax rates with the ERP software.
 enableTaxRatesModule = 1
+
+# cat=basic; type=string; label=Smarty Compile Directory: Path to the smarty Compile Directory
+smartyCompileDir = typo3temp/smarty_compile
+
+# cat=basic; type=file[html,htm,tmpl,tpl,txt]; label=Article List template: The template file to be used for Article List in the Backend Module (template for the Smarty templating engine).
+templateFileArticleList = EXT:pt_gsaadmin/res/smarty_tpl/list.tpl.html
