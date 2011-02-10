@@ -245,23 +245,22 @@ class tx_ptgsaadmin_list extends tx_pttools_objectCollection implements Iterator
      * Renders the list
      *
      * @param 	string	path to the smarty template
+     * @param   string  path to the smarty compile directory
      * @return 	string	HTML Output
      * @author  Fabrizio Branca <branca@punkt.de>
      * @since	2008-01-14
      */
-    public function toHTML($smartyTemplate) {
-        $rowArray = $this->getData();
+    public function toHTML($smartyTemplate, $smartyCompileDir = 'typo3temp/smarty_compile') {
         
-        $smarty = tx_smarty::smarty(array('compile_dir' => PATH_site.'typo3temp/smarty/templates_c'));  
-        
+        $smarty = tx_smarty::smarty(array('compile_dir' => PATH_site.$smartyCompileDir));  
         $smarty->assign('title', $this->get_title());
         $smarty->assign('tableHeadRow', $this->get_tableHeadRow()->getData());
         $smarty->assign('pageUpBtn', $this->get_pageUpBtn());
         $smarty->assign('pageDownBtn', $this->get_pageDownBtn());
         $smarty->assign('rows', $this->getData());
         $smarty->assign('passParameter', $this->get_passParameter());
-            
-        return $content = $smarty->fetch('file:'.t3lib_div::getFileAbsFileName($smartyTemplate));
+        $content = $smarty->fetch('file:'.t3lib_div::getFileAbsFileName($smartyTemplate));
+        return $content;
     }
     
     
