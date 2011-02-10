@@ -41,6 +41,7 @@ require_once($BACK_PATH.'init.php');
 require_once($BACK_PATH.'template.php');
 $LANG->includeLLFile('EXT:pt_gsaadmin/mod_articles/locallang.xml');
 require_once(PATH_t3lib.'class.t3lib_scbase.php'); // parent class for 'ScriptClasses' in backend modules
+require_once(PATH_t3lib.'/error/class.t3lib_error_exception.php'); // Typo3 exection class not automatically included
 $BE_USER->modAccess($MCONF, 1); // this checks permissions and exits if the users has no permission for entry
 
 
