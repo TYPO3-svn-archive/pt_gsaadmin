@@ -626,7 +626,7 @@ class tx_ptgsaadmin_module2 extends tx_ptgsaadmin_submodules {
         // HOOK: process further data (added by Fabrizio Branca 2007-12)
         if (is_array($GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['pt_gsaadmin']['module2_hooks']['createArticleFromFormData_processData'])) {
             foreach($GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['pt_gsaadmin']['module2_hooks']['createArticleFromFormData_processData'] as $_funcRef) {
-                $_params = array();
+                $_params = array('articleObj' => $articleObj);
                 t3lib_div::callUserFunction($_funcRef, $_params, $this, '');
             }
         }
