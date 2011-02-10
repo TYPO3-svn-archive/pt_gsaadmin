@@ -34,6 +34,8 @@
 /**
  * Inclusion of external PEAR resources: this requires PEAR to be installed on your server (see http://pear.php.net/) and the path to PEAR being part of your include path!
  */
+//TODO get a better Value for deprecated messages
+error_reporting(E_ALL && !E_DEPRECATED);
 require_once 'HTML/QuickForm.php';  // PEAR HTML_QuickForm: methods for creating, validating, processing HTML forms (see http://pear.php.net/manual/en/package.html.html-quickform.php). This requires the PEAR module to be installed on your server and the path to PEAR being part of your include path.
 
 
@@ -41,6 +43,7 @@ require_once 'HTML/QuickForm.php';  // PEAR HTML_QuickForm: methods for creating
 /**
  * Inclusion of TYPO3 resources
  */
+
 require_once PATH_t3lib.'class.t3lib_parsehtml_proc.php'; // needed for RTE Rendering
 
 require_once t3lib_extMgm::extPath('pt_tools').'res/objects/class.tx_pttools_exception.php'; // general exception class
@@ -311,6 +314,8 @@ class tx_ptgsaadmin_module2 extends tx_ptgsaadmin_submodules {
         
         $tmp = t3lib_div::_GP('first');
         
+        $extConfArr = tx_pttools_div::returnExtConfArray('pt_gsaadmin');
+        
         $searchString = trim(urldecode(t3lib_div::_GP('search_field')));
         
         if (!empty($searchString)) {
@@ -353,7 +358,6 @@ class tx_ptgsaadmin_module2 extends tx_ptgsaadmin_submodules {
         }
         
         $onlineArticlesCollection = new tx_ptgsashop_articleCollection();  
-           
         if ($onlineArticlesQuantity > 0) {   
             
             $onlineArticlesArr = tx_ptgsashop_articleAccessor::getInstance()->selectOnlineArticles('ARTNR', $first.','.$amount, $searchString);
@@ -365,7 +369,7 @@ class tx_ptgsaadmin_module2 extends tx_ptgsaadmin_submodules {
         
             /* @var $articleObj tx_ptgsashop_article */
             foreach ($onlineArticlesCollection as $articleObj) {
-                $row = new tx_ptgsaadmin_row();
+            	$row = new tx_ptgsaadmin_row();
                 
                 // record icon
                 $articleIcon = ($articleObj->get_isPassive() == true ? 'article_passive.png' : 'article.png');
@@ -413,9 +417,7 @@ class tx_ptgsaadmin_module2 extends tx_ptgsaadmin_submodules {
             $list->addRow($row);
         }
         
-        // TODO: (Fabrizio) make configurable
-        $content .= $list->toHTML('EXT:pt_gsaadmin/res/smarty_tpl/list.tpl.html');
-        
+        $content .= $list->toHTML($extConfArr['templateFileArticleList'],$extConfArr['smartyCompileDir'] );
         // Search Box:
         $content .= $this->printSearchForm($searchString, $this->ll('searchString'), $this->ll('searchButtonLabel'));
                         
